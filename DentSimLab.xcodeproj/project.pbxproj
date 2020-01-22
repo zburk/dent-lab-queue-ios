@@ -13,6 +13,7 @@
 		41DCB1DC23D8010700653038 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41DCB1DB23D8010700653038 /* Assets.xcassets */; };
 		41DCB1DF23D8010700653038 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41DCB1DE23D8010700653038 /* Preview Assets.xcassets */; };
 		41DCB1E223D8010700653038 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41DCB1E023D8010700653038 /* LaunchScreen.storyboard */; };
+		41DCB1EA23D80A0200653038 /* CustomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DCB1E923D80A0200653038 /* CustomColors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		41DCB1DE23D8010700653038 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		41DCB1E123D8010700653038 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41DCB1E323D8010700653038 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41DCB1E923D80A0200653038 /* CustomColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				41DCB1E023D8010700653038 /* LaunchScreen.storyboard */,
 				41DCB1E323D8010700653038 /* Info.plist */,
 				41DCB1DD23D8010700653038 /* Preview Content */,
+				41DCB1E923D80A0200653038 /* CustomColors.swift */,
 			);
 			path = DentSimLab;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 			files = (
 				41DCB1D623D8010000653038 /* AppDelegate.swift in Sources */,
 				41DCB1D823D8010000653038 /* SceneDelegate.swift in Sources */,
+				41DCB1EA23D80A0200653038 /* CustomColors.swift in Sources */,
 				41DCB1DA23D8010000653038 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

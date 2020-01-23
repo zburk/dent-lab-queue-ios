@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		410D83AB23D9223A00EF1692 /* BenchNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410D83AA23D9223A00EF1692 /* BenchNumberView.swift */; };
+		410D83AD23D9294000EF1692 /* QueueList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410D83AC23D9294000EF1692 /* QueueList.swift */; };
+		410D83B423D92D5A00EF1692 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 410D83B223D92D5A00EF1692 /* Interface.storyboard */; };
+		410D83B623D92D5D00EF1692 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 410D83B523D92D5D00EF1692 /* Assets.xcassets */; };
+		410D83BD23D92D5D00EF1692 /* WatchDentSimlab Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 410D83BC23D92D5D00EF1692 /* WatchDentSimlab Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		410D83C223D92D5E00EF1692 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410D83C123D92D5E00EF1692 /* ContentView.swift */; };
+		410D83C423D92D5E00EF1692 /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410D83C323D92D5E00EF1692 /* HostingController.swift */; };
+		410D83C623D92D5E00EF1692 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410D83C523D92D5E00EF1692 /* ExtensionDelegate.swift */; };
+		410D83C823D92D5E00EF1692 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410D83C723D92D5E00EF1692 /* NotificationController.swift */; };
+		410D83CA23D92D5E00EF1692 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410D83C923D92D5E00EF1692 /* NotificationView.swift */; };
+		410D83CC23D92D6000EF1692 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 410D83CB23D92D6000EF1692 /* Assets.xcassets */; };
+		410D83CF23D92D6000EF1692 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 410D83CE23D92D6000EF1692 /* Preview Assets.xcassets */; };
+		410D83D423D92D6000EF1692 /* WatchDentSimlab.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 410D83B023D92D5A00EF1692 /* WatchDentSimlab.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		410D83DD23D92F0000EF1692 /* BenchNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410D83AA23D9223A00EF1692 /* BenchNumberView.swift */; };
+		410D83DE23D92F1100EF1692 /* QueueList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410D83AC23D9294000EF1692 /* QueueList.swift */; };
+		410D83DF23D92F2200EF1692 /* CustomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DCB1E923D80A0200653038 /* CustomColors.swift */; };
 		41DCB1D623D8010000653038 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DCB1D523D8010000653038 /* AppDelegate.swift */; };
 		41DCB1D823D8010000653038 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DCB1D723D8010000653038 /* SceneDelegate.swift */; };
 		41DCB1DA23D8010000653038 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DCB1D923D8010000653038 /* ContentView.swift */; };
@@ -16,7 +32,65 @@
 		41DCB1EA23D80A0200653038 /* CustomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DCB1E923D80A0200653038 /* CustomColors.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		410D83BE23D92D5D00EF1692 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41DCB1CA23D8010000653038 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 410D83BB23D92D5D00EF1692;
+			remoteInfo = "WatchDentSimlab Extension";
+		};
+		410D83D223D92D6000EF1692 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41DCB1CA23D8010000653038 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 410D83AF23D92D5A00EF1692;
+			remoteInfo = WatchDentSimlab;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		410D83D823D92D6000EF1692 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				410D83BD23D92D5D00EF1692 /* WatchDentSimlab Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		410D83DC23D92D6000EF1692 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				410D83D423D92D6000EF1692 /* WatchDentSimlab.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		410D83AA23D9223A00EF1692 /* BenchNumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenchNumberView.swift; sourceTree = "<group>"; };
+		410D83AC23D9294000EF1692 /* QueueList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueList.swift; sourceTree = "<group>"; };
+		410D83B023D92D5A00EF1692 /* WatchDentSimlab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchDentSimlab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		410D83B323D92D5A00EF1692 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		410D83B523D92D5D00EF1692 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		410D83B723D92D5D00EF1692 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		410D83BC23D92D5D00EF1692 /* WatchDentSimlab Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WatchDentSimlab Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		410D83C123D92D5E00EF1692 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		410D83C323D92D5E00EF1692 /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
+		410D83C523D92D5E00EF1692 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		410D83C723D92D5E00EF1692 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		410D83C923D92D5E00EF1692 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		410D83CB23D92D6000EF1692 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		410D83CE23D92D6000EF1692 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		410D83D023D92D6000EF1692 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		410D83D123D92D6000EF1692 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		41DCB1D223D8010000653038 /* DentSimLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DentSimLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41DCB1D523D8010000653038 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41DCB1D723D8010000653038 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -29,6 +103,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		410D83B923D92D5D00EF1692 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		41DCB1CF23D8010000653038 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -39,10 +120,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		410D83B123D92D5A00EF1692 /* WatchDentSimlab */ = {
+			isa = PBXGroup;
+			children = (
+				410D83B223D92D5A00EF1692 /* Interface.storyboard */,
+				410D83B523D92D5D00EF1692 /* Assets.xcassets */,
+				410D83B723D92D5D00EF1692 /* Info.plist */,
+			);
+			path = WatchDentSimlab;
+			sourceTree = "<group>";
+		};
+		410D83C023D92D5E00EF1692 /* WatchDentSimlab Extension */ = {
+			isa = PBXGroup;
+			children = (
+				410D83C123D92D5E00EF1692 /* ContentView.swift */,
+				410D83C323D92D5E00EF1692 /* HostingController.swift */,
+				410D83C523D92D5E00EF1692 /* ExtensionDelegate.swift */,
+				410D83C723D92D5E00EF1692 /* NotificationController.swift */,
+				410D83C923D92D5E00EF1692 /* NotificationView.swift */,
+				410D83CB23D92D6000EF1692 /* Assets.xcassets */,
+				410D83D023D92D6000EF1692 /* Info.plist */,
+				410D83D123D92D6000EF1692 /* PushNotificationPayload.apns */,
+				410D83CD23D92D6000EF1692 /* Preview Content */,
+			);
+			path = "WatchDentSimlab Extension";
+			sourceTree = "<group>";
+		};
+		410D83CD23D92D6000EF1692 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				410D83CE23D92D6000EF1692 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		41DCB1C923D8010000653038 = {
 			isa = PBXGroup;
 			children = (
+				410D83AA23D9223A00EF1692 /* BenchNumberView.swift */,
+				410D83AC23D9294000EF1692 /* QueueList.swift */,
 				41DCB1D423D8010000653038 /* DentSimLab */,
+				410D83B123D92D5A00EF1692 /* WatchDentSimlab */,
+				410D83C023D92D5E00EF1692 /* WatchDentSimlab Extension */,
 				41DCB1D323D8010000653038 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +170,8 @@
 			isa = PBXGroup;
 			children = (
 				41DCB1D223D8010000653038 /* DentSimLab.app */,
+				410D83B023D92D5A00EF1692 /* WatchDentSimlab.app */,
+				410D83BC23D92D5D00EF1692 /* WatchDentSimlab Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,6 +202,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		410D83AF23D92D5A00EF1692 /* WatchDentSimlab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 410D83D923D92D6000EF1692 /* Build configuration list for PBXNativeTarget "WatchDentSimlab" */;
+			buildPhases = (
+				410D83AE23D92D5A00EF1692 /* Resources */,
+				410D83D823D92D6000EF1692 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				410D83BF23D92D5D00EF1692 /* PBXTargetDependency */,
+			);
+			name = WatchDentSimlab;
+			productName = WatchDentSimlab;
+			productReference = 410D83B023D92D5A00EF1692 /* WatchDentSimlab.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		410D83BB23D92D5D00EF1692 /* WatchDentSimlab Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 410D83D523D92D6000EF1692 /* Build configuration list for PBXNativeTarget "WatchDentSimlab Extension" */;
+			buildPhases = (
+				410D83B823D92D5D00EF1692 /* Sources */,
+				410D83B923D92D5D00EF1692 /* Frameworks */,
+				410D83BA23D92D5D00EF1692 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WatchDentSimlab Extension";
+			productName = "WatchDentSimlab Extension";
+			productReference = 410D83BC23D92D5D00EF1692 /* WatchDentSimlab Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 		41DCB1D123D8010000653038 /* DentSimLab */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 41DCB1E623D8010700653038 /* Build configuration list for PBXNativeTarget "DentSimLab" */;
@@ -88,10 +243,12 @@
 				41DCB1CE23D8010000653038 /* Sources */,
 				41DCB1CF23D8010000653038 /* Frameworks */,
 				41DCB1D023D8010000653038 /* Resources */,
+				410D83DC23D92D6000EF1692 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				410D83D323D92D6000EF1692 /* PBXTargetDependency */,
 			);
 			name = DentSimLab;
 			productName = DentSimLab;
@@ -108,6 +265,12 @@
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Zachary Burk";
 				TargetAttributes = {
+					410D83AF23D92D5A00EF1692 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					410D83BB23D92D5D00EF1692 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
 					41DCB1D123D8010000653038 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
@@ -127,11 +290,31 @@
 			projectRoot = "";
 			targets = (
 				41DCB1D123D8010000653038 /* DentSimLab */,
+				410D83AF23D92D5A00EF1692 /* WatchDentSimlab */,
+				410D83BB23D92D5D00EF1692 /* WatchDentSimlab Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		410D83AE23D92D5A00EF1692 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				410D83B623D92D5D00EF1692 /* Assets.xcassets in Resources */,
+				410D83B423D92D5A00EF1692 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		410D83BA23D92D5D00EF1692 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				410D83CF23D92D6000EF1692 /* Preview Assets.xcassets in Resources */,
+				410D83CC23D92D6000EF1692 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		41DCB1D023D8010000653038 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -145,10 +328,27 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		410D83B823D92D5D00EF1692 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				410D83DD23D92F0000EF1692 /* BenchNumberView.swift in Sources */,
+				410D83C423D92D5E00EF1692 /* HostingController.swift in Sources */,
+				410D83DF23D92F2200EF1692 /* CustomColors.swift in Sources */,
+				410D83C223D92D5E00EF1692 /* ContentView.swift in Sources */,
+				410D83C823D92D5E00EF1692 /* NotificationController.swift in Sources */,
+				410D83C623D92D5E00EF1692 /* ExtensionDelegate.swift in Sources */,
+				410D83DE23D92F1100EF1692 /* QueueList.swift in Sources */,
+				410D83CA23D92D5E00EF1692 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		41DCB1CE23D8010000653038 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				410D83AB23D9223A00EF1692 /* BenchNumberView.swift in Sources */,
+				410D83AD23D9294000EF1692 /* QueueList.swift in Sources */,
 				41DCB1D623D8010000653038 /* AppDelegate.swift in Sources */,
 				41DCB1D823D8010000653038 /* SceneDelegate.swift in Sources */,
 				41DCB1EA23D80A0200653038 /* CustomColors.swift in Sources */,
@@ -158,7 +358,28 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		410D83BF23D92D5D00EF1692 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 410D83BB23D92D5D00EF1692 /* WatchDentSimlab Extension */;
+			targetProxy = 410D83BE23D92D5D00EF1692 /* PBXContainerItemProxy */;
+		};
+		410D83D323D92D6000EF1692 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 410D83AF23D92D5A00EF1692 /* WatchDentSimlab */;
+			targetProxy = 410D83D223D92D6000EF1692 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
+		410D83B223D92D5A00EF1692 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				410D83B323D92D5A00EF1692 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
 		41DCB1E023D8010700653038 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -170,6 +391,88 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		410D83D623D92D6000EF1692 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"WatchDentSimlab Extension/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "WatchDentSimlab Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.DentSimLab.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		410D83D723D92D6000EF1692 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"WatchDentSimlab Extension/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "WatchDentSimlab Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.DentSimLab.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		410D83DA23D92D6000EF1692 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = WatchDentSimlab_Extension;
+				INFOPLIST_FILE = WatchDentSimlab/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.DentSimLab.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		410D83DB23D92D6000EF1692 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = WatchDentSimlab_Extension;
+				INFOPLIST_FILE = WatchDentSimlab/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.DentSimLab.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
 		41DCB1E423D8010700653038 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -325,6 +628,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		410D83D523D92D6000EF1692 /* Build configuration list for PBXNativeTarget "WatchDentSimlab Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				410D83D623D92D6000EF1692 /* Debug */,
+				410D83D723D92D6000EF1692 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		410D83D923D92D6000EF1692 /* Build configuration list for PBXNativeTarget "WatchDentSimlab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				410D83DA23D92D6000EF1692 /* Debug */,
+				410D83DB23D92D6000EF1692 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		41DCB1CD23D8010000653038 /* Build configuration list for PBXProject "DentSimLab" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
